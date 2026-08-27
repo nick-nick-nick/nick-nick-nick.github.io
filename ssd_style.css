@@ -1,0 +1,204 @@
+
+:root {
+  --bg-color: #0d1117;
+  --surface-table: #161b22;
+  --border-color: #30363d;
+  --text-main: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-header: #79c0ff;
+  --font-sans: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 16px !important;
+  line-height: 1.65 !important;
+  padding: 2rem 1.5rem !important;
+  margin: 0 auto !important;
+  max-width: 1000px !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+body > table {
+  width: 100% !important;
+  max-width: 100% !important;
+  background: transparent !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 auto !important;
+}
+
+body > table > tbody > tr > td {
+  display: block !important;
+  width: 100% !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0.25rem 0 !important; 
+  box-shadow: none !important;
+  color: var(--text-main) !important;
+}
+
+
+hr {
+  border: none !important;
+  border-top: 1px solid var(--border-color) !important;
+  margin: 1rem 0 0.5rem 0 !important; 
+  opacity: 0.5;
+}
+
+
+br + br {
+  display: none !important;
+}
+
+
+h1#home, h1 {
+  color: var(--accent-header) !important;
+  font-weight: 700 !important;
+  font-size: 2.1rem !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 0.35rem !important;
+}
+
+h3 {
+  color: var(--text-muted) !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+
+b[id], strong[id] {
+  display: inline-block !important;
+  color: var(--accent) !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.35rem !important;
+  border-bottom: 2px solid var(--accent) !important;
+  padding-bottom: 0.15rem !important;
+}
+
+
+a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: color 0.15s ease !important;
+}
+
+a:hover {
+  color: #a5d6ff !important;
+  text-decoration: underline !important;
+}
+
+
+p {
+  color: var(--text-main) !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.light-text-row {
+  color: var(--text-muted) !important;
+}
+
+
+table.tg,
+table[border="1"],
+.table {
+  display: table !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  margin: 0.75rem 0 1.25rem 0 !important;
+  background: var(--surface-table) !important;
+  border: 1px solid var(--border-color) !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+}
+
+table.tg tbody,
+table[border="1"] tbody {
+  display: table-row-group !important;
+}
+
+table.tg tr,
+table[border="1"] tr,
+.table tr {
+  display: table-row !important;
+  background: transparent !important;
+}
+
+table.tg th,
+table.tg td,
+table[border="1"] th,
+table[border="1"] td,
+.tg-bobw,
+.tg-8d8j,
+.tg-7btt,
+.tg-c3ow {
+  display: table-cell !important;
+  box-sizing: border-box !important;
+  padding: 0.65rem 0.85rem !important;
+  border: 1px solid var(--border-color) !important;
+  vertical-align: middle !important;
+  font-size: 0.95rem !important;
+  color: var(--text-main) !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-align: center !important;
+}
+
+
+table.tg th,
+table.tg .tg-7btt,
+table[border="1"] th,
+.tg-bobw,
+.table thead th {
+  background-color: #21262d !important;
+  color: var(--accent-header) !important;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.03em !important;
+  text-align: center !important;
+}
+
+
+table.tg tr:first-child td[colspan],
+table[border="1"] tr:first-child td[colspan] {
+  background-color: #1c2128 !important;
+  text-align: left !important;
+  padding: 0.65rem 0.85rem !important;
+}
+
+table.tg th:nth-child(4), table.tg td:nth-child(4),
+table[border="1"] th:nth-child(4), table[border="1"] td:nth-child(4) {
+  text-align: left !important;
+}
+
+table.tg th:nth-child(5), table.tg td:nth-child(5),
+table[border="1"] th:nth-child(5), table[border="1"] td:nth-child(5) {
+  text-align: left !important;
+}
+
+table.tg tbody tr:hover td,
+table[border="1"] tbody tr:hover td,
+.table tbody tr:hover td {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
