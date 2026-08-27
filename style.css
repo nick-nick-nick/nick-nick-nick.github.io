@@ -223,7 +223,7 @@ footer {
   color: var(--text-muted);
 }
 
-/* Project Bullet Points */
+
 .project-bullets {
   padding-left: 1.25rem;
   margin-top: 0.5rem;
@@ -238,7 +238,7 @@ footer {
   line-height: 1.5;
 }
 
-/* --- Interactive Hobby Accordions --- */
+
 .hobbies-container {
   display: flex;
   flex-direction: column;
@@ -263,14 +263,14 @@ footer {
   font-weight: 600;
   color: var(--text-main);
   cursor: pointer;
-  list-style: none; /* Removes default arrow in modern browsers */
+  list-style: none; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   user-select: none;
 }
 
-/* Custom expand indicator (+ / -) */
+
 .hobby-card summary::after {
   content: "+";
   font-family: var(--font-mono);
@@ -296,7 +296,7 @@ footer {
   line-height: 1.6;
 }
 
-/* --- Horizontal Carousel / Slider --- */
+
 .category-header {
   display: flex;
   justify-content: space-between;
@@ -320,7 +320,7 @@ footer {
   -webkit-overflow-scrolling: touch;
 }
 
-/* Custom modern scrollbar for desktop */
+
 .media-carousel::-webkit-scrollbar {
   height: 6px;
 }
@@ -339,9 +339,9 @@ footer {
   background: var(--accent);
 }
 
-/* Carousel Card */
+
 .media-card {
-  flex: 0 0 250px; /* Fixes card width so items stay horizontal */
+  flex: 0 0 250px; 
   scroll-snap-align: start;
   background: var(--surface);
   border: 1px solid var(--border);
